@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+.App {
+    min-height: 100%;
+    background: #F0F2F4;
+    position: relative;
+
+    .wrap {
+        padding-bottom: 70px;
+    }
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 100%;
+}
+//* import configs styles
+@import './config/reset';
+@import './config/variables';
+@import './config/mixins';
+
+//* import fonts
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&display=swap');
+//* use -> font-family: 'IBM Plex Mono', monospace;
+
+//* import componets' styles
+@import '../../components/footer/footer';
+@import '../../components/table/table';

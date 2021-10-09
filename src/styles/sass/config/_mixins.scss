@@ -1,0 +1,12 @@
+@mixin defaultFont {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin defaultFontBlack {
+    @include defaultFont;
+    color: black;
+}
